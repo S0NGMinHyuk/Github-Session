@@ -169,6 +169,14 @@ git commit --amend --no-edit
 
 커밋 메시지 수정 없이, 현재 stage한 항목을 이전 커밋에 넣습니다.
 
+### Reset
+
+로컬 레포지토리의 커밋을 삭제합니다.
+
+```zsh
+git reset HEAD^
+```
+
 ### Merge
 
 > 개발자가 "Branch A"에서 작업 중이고, "Branch B"의 변경사항을 병합한다고 가정.
